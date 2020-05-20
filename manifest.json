@@ -1,0 +1,19 @@
+{
+  "name": "Local clock",
+  "description": "local clock displayed with a change of pictures according to time",
+  "version": "0.0.0.1",
+  "author": "Tiny Tia",
+  "manifest_version": 2,
+  "browser_action": {"default_icon": "tab-icon.png", "default_title": "Have a good day" },
+  "icons": {
+    "16": "images/icon16.png",
+    "36": "images/icon36.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"},
+
+  "chrome_url_overrides" : {"newtab": "newtab.html"},  
+  "permissions": ["activeTab"]
+ 
+}
+
+  
